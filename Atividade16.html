@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">    
+    <head>
+        <meta charset="utf8">
+        <title>Exercício 16</title>
+    </head>
+    <style>
+        body{background-color: #AAAAFF;
+            color:darkblue;
+            a:link{color:blue}; 
+            a:visited{color:lightblue};
+            a:hover{color:#FFFFFF};
+        }
+        h1,h2{
+            text-align:center;
+        }
+        h3{
+            text-align:center;
+            color:#FFFFFF;
+        }
+    </style>
+    <body>
+        <h1 >Utilizando ancoras</h1>
+        <h3 >Nome, No e Turma dos Integrantes</h3>
+        <div id="topo">
+            <a href="#LO">Lista Ordenada</a><br>
+            <a href="#LNO">Lista Não Ordenada</a><br>
+            <a href="#LAO">Lista Aninhada Ordenada</a><br>
+            <a href="#LANO">Lista Aninhada Não Ordenada</a> <p>
+            <hr>
+        </div>
+        <div id="LO">
+            <h2 >Lista Ordenada</h2><HR>
+            <ol>
+                <li>Curso Técnico em Informática</li>
+                <li>Curso Técnico em Turismo</li>
+            </ol>
+            <a href="#topo">Volta ao Início</a>
+            <br>
+            <hr>
+        </div>
+        <div id="LNO">
+            <h2 >Lista Não Ordenada</h2>
+            <hr>
+            <ul>
+                <li>Curso Técnico em Eletrônica</li>
+                <li>Curso Técnico em Química</li>
+            </ul>
+            <a href="#topo">Volta ao Início </a>
+            <br>
+            <hr>
+        </div>
+        <div id="LAO">
+            <h2 >Lista Aninhada Ordenada</h2>
+            <hr>
+            <ol>
+                <li> Curso Técnico em Informática
+                    <ol>
+                        <li>Manhã</li>
+                        <li>Noite</li>
+                     </ol>
+                </li>
+                <li> Curso Técnico em Turismo
+                    <ol>
+                        <li>Manhã</li>
+                        <li>Noite</li>
+                    </ol>
+                </li>
+            </ol>
+            <a href="#topo">Volta ao Início </a>
+            <br>
+            <hr>
+        </div>
+        <div id="LANO">
+            <h2>Lista Aninhada Não Ordenada</h2>
+            <hr>
+            <ul>
+                <li> Curso Técnico em Eletrônica
+                    <ul>
+                        <li>Manhã não tem</li>
+                        <li>Noite</li>
+                    </ul>
+                </li>
+                <li> Curso Técnico em Química
+                    <ul>
+                        <li>Manhã não tem</li>
+                        <li>Noite</li>
+                    </ul>
+                </li>
+            </ul>
+            <a href="#topo">Volta ao Início </a>
+            <br>
+        </div>
+    </body>
+</html>

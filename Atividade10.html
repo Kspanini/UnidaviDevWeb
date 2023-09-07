@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf8">
+        <title>Atividade10</title>
+    </head>
+    <style>
+        table, th, td{
+            border:1px solid black;
+        }
+    </style>
+    <body>
+        <form action="index.php" method="post">
+            <table>
+                <tr>
+                    <td><label for="usuario">Usuario:</label></td>
+                    <td><input type="text" id="usuario" name="usuario"></td>
+                    <td><label for="senha">Senha:</label></td>
+                    <td><input type="password" id="senha" name="senha"></td>
+                    <td><input type="submit" value="Enviar"></td>
+                </tr>
+                <tr>
+                    <td colspan="5"><input type="checkbox" name="salvarUsuario" id="salvarUsuario">
+                        <label for="salvarUsuario">Lembrar meu usuario</label></td>
+                </tr>
+            </table>
+        </form>    
+    </body>
+</html>
